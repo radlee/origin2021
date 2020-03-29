@@ -54,7 +54,9 @@ class App extends Component {
       {
         this.state.people.map(people => <h2 key={ people.id }>{ people.name }</h2>)
       }
-      <img src={logo} alt="logo" height="60px"/>;
+       <a class="logo_link" href="https://radlee.github.io/origin-about" rel="logo_link">
+        <img src={logo} alt="logo" height="60px"/>
+        </a>
     </div>
     )
   }
