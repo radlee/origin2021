@@ -12,7 +12,7 @@ class App extends Component {
     this.state = {
       people : [
         {
-          name : "Stay At Home",
+          name : "Test",
           id : "as153"
         },
         {
