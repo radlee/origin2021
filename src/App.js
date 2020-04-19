@@ -1,39 +1,12 @@
 import React, { Component } from 'react';
 import logo from './origin.png';
 import './App.css';
+import CovidStats from './Components/CovidStats';
+
 // import 'bootstrap/dist/css/bootstrap.min.css';
 
 class App extends Component {
-  constructor() {
-    super();
-    //State ->
-    //JavaScript Object with properrties that we 
-    //can access at any point inside of our class
-    this.state = {
-      people : [
-        {
-          name : "Test",
-          id : "as153"
-        },
-        {
-          name : "Maintain Social Distancing - Selft Isolation 1m (3 Feet)",
-          id : "as123"
-        },
-        {
-          name : "Wash Hands and Sanitize them",
-          id : "as345"
-        },
-        {
-          name : "Avoid Touching Eyes, Nose and Mouth",
-          id: "as897"
-        },
-        {
-          name : "Practice Respiratory Hygiene",
-          id: "as597"
-        }
-      ]
-    }
-  }
+
   render() {
     return (
       <div className="App">
@@ -50,10 +23,8 @@ class App extends Component {
             </a>
           </div>
         </div>
-        <h1>Keep <span className="span2">COVID-19</span> Under <span className="span">CTRL</span></h1>
-      {
-        this.state.people.map(people => <h2 key={ people.id }>{ people.name }</h2>)
-      }
+        <h1>Current <span className="span2">COVID-19</span> Update : <span className="span">South Africa</span></h1>
+        <CovidStats />
        <a class="logo_link" href="https://radlee.github.io/origin-about" rel="logo_link">
         <img src={logo} alt="logo" height="60px"/>
         </a>
