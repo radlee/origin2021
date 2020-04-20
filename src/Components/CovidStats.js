@@ -12,7 +12,7 @@ const CovidStats = ({ corona }) => {
     
         </tr>
       </thead>
-      <tbody classsName="tbody">
+      <tbody className="tbody">
       { (corona.length > 0) ? corona.map( (covid, index) => {
         
            return (
