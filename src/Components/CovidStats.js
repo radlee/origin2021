@@ -3,16 +3,16 @@ import React from 'react';
 const CovidStats = ({ corona }) => {
   return (
     <table className="table">
-      <thead>
+      <thead className="thead">
         <tr>
           <th>Date</th>
-          <th>Cases Confirmed</th>
-          <th>No of Deaths</th>
-          <th>No of Recoveries</th>
+          <th className="confirmed">Confirmed</th>
+          <th className="deaths">Deaths</th>
+          <th className="recoveries">Recoveries</th>
     
         </tr>
       </thead>
-      <tbody>
+      <tbody classsName="tbody">
       { (corona.length > 0) ? corona.map( (covid, index) => {
            return (
             <tr key={ index }>

@@ -41,7 +41,7 @@ class App extends Component {
             </a>
           </div>
         </div>
-        <h1>Current <span className="span2">COVID-19</span> Update : <span className="span">South Africa</span></h1>
+        <h1>Current <span className="span2">COVID-19</span> Update - <span className="span">South Africa</span></h1>
         <CovidStats corona={ this.state.corona } />
        <a className="logo_link" href="https://radlee.github.io/origin-about" rel="logo_link">
         <img src={logo} alt="logo" height="60px"/>

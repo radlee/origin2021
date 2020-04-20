@@ -5,6 +5,27 @@
   color: #048556;
   font-weight: bolder;
 }
+
+.confirmed {
+  color: rgb(230, 115, 8)
+}
+
+th {
+  padding: 10px;
+  font-family: "Code";
+}
+
+.thead {
+  background-color: grey;
+}
+
+.deaths {
+  color: red;
+}
+
+.recoveries {
+  color: green;
+}
 .span2{
   color: rgb(230, 115, 8);
   font-weight: bolder;
