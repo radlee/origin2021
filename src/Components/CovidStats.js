@@ -1,27 +1,32 @@
 import React from 'react';
-import axios from 'axios';
 
-// class CovidStats extends React.Component {
-  export default class CovidStats extends React.Component {
-
-    state = {
-        covid_data : []
-    };
-
-    componentDidMount() {
-        axios.get('https://api.covid19api.com/live/country/south-africa').then(res => {
-          console.log(res);
-          this.setState({ covid_data : res.data });
-        });
-      }
-  
-      render() {
-          return (
-              <ul>
-                    { this.state.covid_data.map(data => <h2 key={ data.Date }>{ data.Country }</h2>) }
-              </ul>
-
+const CovidStats = ({ corona }) => {
+  return (
+    <table className="table">
+      <thead>
+        <tr>
+          <th>Date</th>
+          <th>Cases Confirmed</th>
+          <th>No of Deaths</th>
+          <th>No of Recoveries</th>
+    
+        </tr>
+      </thead>
+      <tbody>
+      { (corona.length > 0) ? corona.map( (covid, index) => {
+           return (
+            <tr key={ index }>
+              <td>{ covid.Date }</td>
+              <td>{ covid.Confirmed }</td>
+              <td>{ covid.Deaths}</td>
+              <td>{ covid.Recovered }</td>
               
+            </tr>
           )
-      }
+         }) : <tr><td colSpan="5">Loading...</td></tr> }
+      </tbody>
+    </table>
+  );
 }
+
+export default CovidStats
