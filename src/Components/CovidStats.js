@@ -14,8 +14,9 @@ const CovidStats = ({ corona }) => {
       </thead>
       <tbody classsName="tbody">
       { (corona.length > 0) ? corona.map( (covid, index) => {
+        
            return (
-            <tr key={ index }>
+            <tr key={ index } className="td-bg">
               <td>{ covid.Date }</td>
               <td>{ covid.Confirmed }</td>
               <td>{ covid.Deaths}</td>
