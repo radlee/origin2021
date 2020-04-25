@@ -1,23 +1,23 @@
 {
   "files": {
-    "main.css": "/origin2020/static/css/main.82f4e1ab.chunk.css",
-    "main.js": "/origin2020/static/js/main.ee1ede13.chunk.js",
-    "main.js.map": "/origin2020/static/js/main.ee1ede13.chunk.js.map",
-    "runtime-main.js": "/origin2020/static/js/runtime-main.bfe6ba8a.js",
-    "runtime-main.js.map": "/origin2020/static/js/runtime-main.bfe6ba8a.js.map",
-    "static/js/2.3db63c64.chunk.js": "/origin2020/static/js/2.3db63c64.chunk.js",
-    "static/js/2.3db63c64.chunk.js.map": "/origin2020/static/js/2.3db63c64.chunk.js.map",
-    "index.html": "/origin2020/index.html",
-    "precache-manifest.d07ea8e538bc911385c31e5f106301c9.js": "/origin2020/precache-manifest.d07ea8e538bc911385c31e5f106301c9.js",
-    "service-worker.js": "/origin2020/service-worker.js",
-    "static/css/main.82f4e1ab.chunk.css.map": "/origin2020/static/css/main.82f4e1ab.chunk.css.map",
-    "static/js/2.3db63c64.chunk.js.LICENSE.txt": "/origin2020/static/js/2.3db63c64.chunk.js.LICENSE.txt",
-    "static/media/origin.png": "/origin2020/static/media/origin.c82bf467.png"
+    "main.css": "/origin2020/origin/static/css/main.13959e2e.chunk.css",
+    "main.js": "/origin2020/origin/static/js/main.6a6bdc2c.chunk.js",
+    "main.js.map": "/origin2020/origin/static/js/main.6a6bdc2c.chunk.js.map",
+    "runtime-main.js": "/origin2020/origin/static/js/runtime-main.d5e73f2f.js",
+    "runtime-main.js.map": "/origin2020/origin/static/js/runtime-main.d5e73f2f.js.map",
+    "static/js/2.f23b4296.chunk.js": "/origin2020/origin/static/js/2.f23b4296.chunk.js",
+    "static/js/2.f23b4296.chunk.js.map": "/origin2020/origin/static/js/2.f23b4296.chunk.js.map",
+    "index.html": "/origin2020/origin/index.html",
+    "precache-manifest.cf97fd6ff5f4e07176d19f94c333686c.js": "/origin2020/origin/precache-manifest.cf97fd6ff5f4e07176d19f94c333686c.js",
+    "service-worker.js": "/origin2020/origin/service-worker.js",
+    "static/css/main.13959e2e.chunk.css.map": "/origin2020/origin/static/css/main.13959e2e.chunk.css.map",
+    "static/js/2.f23b4296.chunk.js.LICENSE.txt": "/origin2020/origin/static/js/2.f23b4296.chunk.js.LICENSE.txt",
+    "static/media/origin.png": "/origin2020/origin/static/media/origin.c82bf467.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.bfe6ba8a.js",
-    "static/js/2.3db63c64.chunk.js",
-    "static/css/main.82f4e1ab.chunk.css",
-    "static/js/main.ee1ede13.chunk.js"
+    "static/js/runtime-main.d5e73f2f.js",
+    "static/js/2.f23b4296.chunk.js",
+    "static/css/main.13959e2e.chunk.css",
+    "static/js/main.6a6bdc2c.chunk.js"
   ]
 }
